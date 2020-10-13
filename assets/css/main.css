@@ -2817,8 +2817,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
-			color: #c8ece9;
+			background-color: rgb(108, 172, 228);
+			color: #ffffff;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -2842,7 +2842,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 header p {
-				color: #a6e0db;
+				color: #ffffff;
 			}
 
 			.wrapper.style1 header.major h2, .wrapper.style1 header.major h3, .wrapper.style1 header.major h4, .wrapper.style1 header.major h5, .wrapper.style1 header.major h6 {
@@ -2850,7 +2850,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 header.major p {
-				color: #c8ece9;
+				color: #ffffff;
 			}
 
 			.wrapper.style1 label {
@@ -4012,3 +4012,53 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+
+
+	.skills-content {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.skill-right {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.sp svg {
+		height: 128px;
+		width: 128px;
+		margin: 1em;
+	}
+
+	.portfolio-title {
+		border-bottom: solid 2px #fff;
+    	display: inline-block;
+		padding-bottom: 1em;
+		padding-top: 1em;
+		position: relative;
+		font-size: 2em;
+		line-height: 2.1em;
+		border-color: rgba(0, 0, 0, 0.125);
+		display: flex;
+		justify-content: center;
+		background-color: #000;
+		margin-bottom: 0;
+	}
+
+	.spotlight .order-one {
+		order: 1;
+		-moz-order: 1;
+    	-webkit-order: 1;
+    	-ms-order: 1;
+	}
+
+	.spotlight .order-two {
+		order: 2;
+		-moz-order: 2;
+    	-webkit-order: 2;
+    	-ms-order: 2;
+	}
+
