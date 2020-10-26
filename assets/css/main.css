@@ -3637,8 +3637,8 @@ input, select, textarea {
 
 		#banner .user {
 			 display: inline-block;
-  			width: 300px;
-  			height: 300px;
+  			width: 30vh;
+  			height: 30vh;
   			border-radius: 50%;
   			cursor: pointer;
   			background-repeat: no-repeat;
@@ -3646,6 +3646,8 @@ input, select, textarea {
 			background-size: cover;
 			background-image: url("../../images/propic.jpg");
 			margin: 0 0 1em 0;
+			outline: none;
+			border: none;
 		}
 
 			#banner p a {
@@ -3763,6 +3765,10 @@ input, select, textarea {
 
 	body.is-preload #banner:after {
 		opacity: 1;
+	}
+
+	.inner {
+		margin-bottom: 8.5em;
 	}
 
 /* CTA */
