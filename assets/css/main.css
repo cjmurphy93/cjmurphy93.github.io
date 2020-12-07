@@ -4078,10 +4078,13 @@ input, select, textarea {
 
 	#education h3 {
 		color: rgb(108, 172, 228);
-		font-size: 15px;
+		font-size: 20px;
 		line-height: 20px;
-		font-weight: 400;
+		font-weight: bold;
 		margin-bottom: 10px;
+		padding-top: 10px;
+		text-align: center;
+		width: 100%
 	}
 
 	#education span {
@@ -4089,6 +4092,9 @@ input, select, textarea {
 		font-size: 14px;
 		line-height: inherit;
 		margin-top: 10px;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 10px;
 	}
 
 	.portfolio-title {
@@ -4106,17 +4112,45 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
-	.spotlight .order-one {
-		order: 1;
-		-moz-order: 1;
-    	-webkit-order: 1;
-    	-ms-order: 1;
-	}
+	@media screen and (max-width: 980px) {
 
-	.spotlight .order-two {
-		order: 2;
-		-moz-order: 2;
-    	-webkit-order: 2;
-    	-ms-order: 2;
-	}
+		#one {
+			padding-left: 0;
+			padding-right: 0;
+			padding-bottom: 0;
+		}
 
+		.major {
+			padding-right: 2em;
+			padding-left: 2em;
+		}
+
+		.title {
+			font-size: 2em;
+			line-height: 2.2em;
+		}
+
+		#skills {
+			margin-right: 2em;
+			margin-left: 2em;
+		}
+
+		.education-inner {
+			flex-direction: column;
+			width: 100%;
+
+		}
+
+		.education-card {
+			width: 100%;
+			border-radius: 0;
+			border-bottom: 2px solid black;
+		}
+
+		.education-card img {
+			width: 100vw;
+			height: 100vw;
+			border-bottom: none;
+		}
+
+	}
