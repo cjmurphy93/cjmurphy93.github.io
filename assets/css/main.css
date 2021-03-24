@@ -3502,6 +3502,15 @@ button:disabled,
   outline: 0;
   text-decoration: none;
   text-transform: uppercase;
+  padding-left: 0.5rem;
+}
+
+#menu ul > li > a.list-contact {
+  padding-left: 2em;
+}
+
+#menu ul > li > a:hover {
+  background-color: #2e3842;
 }
 
 @media screen and (max-width: 736px) {
@@ -3524,6 +3533,10 @@ button:disabled,
   vertical-align: middle;
   width: 7em;
 }
+
+/* #menu .close:hover {
+  background-color: #2e3842;
+} */
 
 @media screen and (max-width: 736px) {
   #menu {
@@ -4351,8 +4364,4 @@ body.is-mobile.landing #footer {
     height: 100vw;
     border-bottom: none;
   }
-}
-
-.list-contact {
-  padding-left: 2em;
 }
